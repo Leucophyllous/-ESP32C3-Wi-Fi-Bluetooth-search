@@ -5,8 +5,8 @@
 #include <BLEScan.h>
 #include <BLEAdvertisedDevice.h>
 
-const char* AP_SSID = "*******"; //change
-const char* AP_PASSWORD = "******";　//change
+const char* AP_SSID = "ESP32_AP"; //change
+const char* AP_PASSWORD = "12345678";　//change
 const IPAddress AP_IP(192, 168, 4, 1);
 const int AP_CHANNEL = 1;
 const int SCAN_TIME = 5;
@@ -61,7 +61,7 @@ const char LOGIN_HTML[] PROGMEM = R"rawliteral(
         function login(event) {
             event.preventDefault();
             const password = document.getElementById('password').value;
-            if (password === '*****') { //change
+            if (password === '12345678') { //change
                 localStorage.setItem('authenticated', 'true');
                 window.location.href = '/scan-page';
             } else {
