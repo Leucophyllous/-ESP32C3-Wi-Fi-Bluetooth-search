@@ -6,7 +6,7 @@
 #include <BLEAdvertisedDevice.h>
 
 const char* AP_SSID = "ESP32_AP"; //change
-const char* AP_PASSWORD = "12345678";　//change
+const char* AP_PASSWORD = "12345678"; //change
 const IPAddress AP_IP(192, 168, 4, 1);
 const int AP_CHANNEL = 1;
 const int SCAN_TIME = 5;
