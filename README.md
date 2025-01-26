@@ -7,7 +7,8 @@ A Wi-Fi and Bluetooth device scanner using ESP32 C3.
 - Wi-Fi Network Scanning:
   - SSID detection
   - Signal strength (RSSI) measurement
-  - Encryption type identification
+  - Encryption type identification                                     ![3](https://github.com/user-attachments/assets/083aab2c-12dd-4a5a-a1e0-8a7acbe1579a)
+
   - Channel information
   - BSSID detection
 - Bluetooth Device Scanning:
