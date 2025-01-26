@@ -3,13 +3,18 @@
 ESP32 C3を使用したWi-FiとBluetoothデバイスのスキャナーです。
 
 ## 🌟 主な機能
+![4](https://github.com/user-attachments/assets/5f2013af-7ab2-4ecf-998d-3d6e72516e4f)
+![3](https://github.com/user-attachments/assets/1ddf6459-7c2a-4e2e-bde4-1958a0865a11)
 
-- Wi-Fiネットワークスキャン機能：
+- Wi-Fiネットワークスキャン機能：               
   - SSID検出
   - 電波強度（RSSI）測定
   - 暗号化方式の特定
   - チャンネル情報
   - BSSID検出
+  
+    ![5](https://github.com/user-attachments/assets/aa5f4b51-0670-446c-8570-885a35e97f2a)
+
 - Bluetoothデバイススキャン機能：
   - デバイス名検出
   - MACアドレス特定
@@ -40,11 +45,13 @@ ESP32 C3を使用したWi-FiとBluetoothデバイスのスキャナーです。
 1. ESP32の電源を入れる
 2. ESP32のWi-Fiアクセスポイントに接続
 3. Chromiumベースのブラウザで`192.168.4.1`にアクセス
+![2](https://github.com/user-attachments/assets/3bfdd83c-c2e8-492d-b2c9-f4b818de0655)
+
    - 注意：Safariは非対応
-4. 設定したパスワードでログイン
-5. タブでWi-FiとBluetoothスキャンを切り替え
-6. スキャンボタンでネットワーク探索を開始
-7. 保存ボタンで結果をエクスポート
+5. 設定したパスワードでログイン
+6. タブでWi-FiとBluetoothスキャンを切り替え
+7. スキャンボタンでネットワーク探索を開始
+8. 保存ボタンで結果をエクスポート
 
 ## ⚠️ セキュリティ注意事項
 
