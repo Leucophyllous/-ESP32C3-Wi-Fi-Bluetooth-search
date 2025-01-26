@@ -24,7 +24,7 @@ A Wi-Fi and Bluetooth device scanner using ESP32 C3.
 - USB cable for programming
 
 ### Software
-- Arduino IDE![2](https://github.com/user-attachments/assets/4ebbd986-e6cf-4603-aeff-e13d26ccf17c)
+- Arduino IDE1.x
 
 - Required libraries:
   ```
@@ -40,7 +40,8 @@ A Wi-Fi and Bluetooth device scanner using ESP32 C3.
 
 1. Power up the ESP32
 2. Connect to the ESP32's Wi-Fi access point
-3. Open a Chromium-based browser and navigate to `192.168.4.1`
+3. Open a Chromium-based browser and navigate to `192.168.4.1` ![2](https://github.com/user-attachments/assets/29f23bd0-2914-43ab-9ba7-b18cd6698ec7)
+
    - Note: Safari is not supported
 4. Log in using the configured password
 5. Use tabs to switch between Wi-Fi and Bluetooth scanning
