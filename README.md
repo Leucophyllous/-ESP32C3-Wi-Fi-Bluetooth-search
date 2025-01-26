@@ -24,7 +24,8 @@ A Wi-Fi and Bluetooth device scanner using ESP32 C3.
 - USB cable for programming
 
 ### Software
-- Arduino IDE
+- Arduino IDE![2](https://github.com/user-attachments/assets/4ebbd986-e6cf-4603-aeff-e13d26ccf17c)
+
 - Required libraries:
   ```
   - WiFi.h
